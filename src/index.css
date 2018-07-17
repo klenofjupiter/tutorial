@@ -31,6 +31,15 @@ a {
 img {
   width: 400px;
 }
+
+@media (max-width: 700px) {
+  img {
+    display: none;
+  }
+  ul {
+    grid-template-columns: 10px 70% auto;
+  }
+} 
 .item-title {
   font-weight: bolder;
   color: white;
