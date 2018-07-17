@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #4b4d4f;
+  background-color: #a9a9a9;
+}
+ul {
+ display: grid;
+ grid-template-columns: 10px 30% 30% auto;
+ grid-column-gap: 30px;
+}
+li {
+ list-style: none;
+ grid-column-start: 2;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ display: grid;
+ grid-template-rows: 25% 25% 25% 25%;
+ line-height: 1.5;
+}
+li span {
+  padding: 5px;
+}
+li.right {
+  grid-column-start: 3;
+}
+a {
+ color: inherit;
+}
+img {
+  width: 400px;
+}
+.item-title {
+  font-weight: bolder;
+  color: white;
+}
+
+.build-tools {
+ font-style: italic;
+}
